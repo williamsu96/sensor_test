@@ -320,7 +320,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory test_sensor
 
 # Convenience name for "all" pass in the directory.
-test_sensor/all:
+test_sensor/all: test_sensor/CMakeFiles/parser.dir/all
 .PHONY : test_sensor/all
 
 # Convenience name for "clean" pass in the directory.
@@ -353,6 +353,7 @@ test_sensor/clean: test_sensor/CMakeFiles/nav_msgs_generate_messages_py.dir/clea
 test_sensor/clean: test_sensor/CMakeFiles/nodelet_generate_messages_cpp.dir/clean
 test_sensor/clean: test_sensor/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
 test_sensor/clean: test_sensor/CMakeFiles/nodelet_generate_messages_py.dir/clean
+test_sensor/clean: test_sensor/CMakeFiles/parser.dir/clean
 test_sensor/clean: test_sensor/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/clean
 test_sensor/clean: test_sensor/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/clean
 test_sensor/clean: test_sensor/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean
@@ -1281,6 +1282,41 @@ test_sensor/CMakeFiles/nodelet_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: test_sensor/CMakeFiles/nodelet_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target test_sensor/CMakeFiles/parser.dir
+
+# All Build rule for target.
+test_sensor/CMakeFiles/parser.dir/all:
+	$(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/depend
+	$(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/williamsu/sensor_test/build/CMakeFiles  3
+	@echo "Built target parser"
+.PHONY : test_sensor/CMakeFiles/parser.dir/all
+
+# Include target in all.
+all: test_sensor/CMakeFiles/parser.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test_sensor/CMakeFiles/parser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/williamsu/sensor_test/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 test_sensor/CMakeFiles/parser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/williamsu/sensor_test/build/CMakeFiles 0
+.PHONY : test_sensor/CMakeFiles/parser.dir/rule
+
+# Convenience name for target.
+parser: test_sensor/CMakeFiles/parser.dir/rule
+.PHONY : parser
+
+# clean rule for target.
+test_sensor/CMakeFiles/parser.dir/clean:
+	$(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/clean
+.PHONY : test_sensor/CMakeFiles/parser.dir/clean
+
+# clean rule for target.
+clean: test_sensor/CMakeFiles/parser.dir/clean
 .PHONY : clean
 
 #=============================================================================

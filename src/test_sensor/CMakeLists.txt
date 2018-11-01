@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   costmap_2d
   	pluginlib
+  urdf
 )
 
 ## System dependencies are found with CMake's conventions
@@ -132,7 +133,8 @@ include_directories(
 
 ## Declare a C++ executable
 # add_executable(test_sensor_node src/test_sensor_node.cpp)
-
+add_executable(parser src/parser.cpp)
+target_link_libraries(parser ${catkin_LIBRARIES})
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(test_sensor_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

@@ -631,6 +631,19 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named parser
+
+# Build rule for target.
+parser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parser
+.PHONY : parser
+
+# fast build rule for target.
+parser/fast:
+	$(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/build
+.PHONY : parser/fast
+
+#=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1005,6 +1018,7 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... parser"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"

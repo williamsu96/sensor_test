@@ -556,6 +556,20 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
+test_sensor/CMakeFiles/parser.dir/rule:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f CMakeFiles/Makefile2 test_sensor/CMakeFiles/parser.dir/rule
+.PHONY : test_sensor/CMakeFiles/parser.dir/rule
+
+# Convenience name for target.
+parser: test_sensor/CMakeFiles/parser.dir/rule
+.PHONY : parser
+
+# fast build rule for target.
+parser/fast:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/build
+.PHONY : parser/fast
+
+# Convenience name for target.
 test_sensor/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
 	cd /home/williamsu/sensor_test/build && $(MAKE) -f CMakeFiles/Makefile2 test_sensor/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
 .PHONY : test_sensor/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
@@ -905,6 +919,30 @@ topic_tools_generate_messages_py/fast:
 	cd /home/williamsu/sensor_test/build && $(MAKE) -f test_sensor/CMakeFiles/topic_tools_generate_messages_py.dir/build.make test_sensor/CMakeFiles/topic_tools_generate_messages_py.dir/build
 .PHONY : topic_tools_generate_messages_py/fast
 
+src/parser.o: src/parser.cpp.o
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.cpp.o:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/src/parser.cpp.o
+.PHONY : src/parser.cpp.o
+
+src/parser.i: src/parser.cpp.i
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.cpp.i:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
+
+src/parser.s: src/parser.cpp.s
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.cpp.s:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f test_sensor/CMakeFiles/parser.dir/build.make test_sensor/CMakeFiles/parser.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -945,6 +983,7 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... parser"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
@@ -972,6 +1011,9 @@ help:
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_lisp"
 	@echo "... topic_tools_generate_messages_py"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
 .PHONY : help
 
 
