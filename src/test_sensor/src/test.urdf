@@ -1,0 +1,8 @@
+<robot name="test_robot">
+	<link name="testlink"/>
+
+	<joint name="testjoin" type="continuous">
+		<parent link="testlink"/>
+		<origin xyz="5 3 0" rpy="0 0 0"
+	</joint>
+</robot>

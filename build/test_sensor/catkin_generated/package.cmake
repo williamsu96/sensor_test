@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "test_sensor")
+set(test_sensor_MAINTAINER "williamsu <williamsu@todo.todo>")
+set(test_sensor_DEPRECATED "")
+set(test_sensor_VERSION "0.0.0")
+set(test_sensor_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "costmap_2d")
+set(test_sensor_RUN_DEPENDS "costmap_2d" "roscpp" "rospy" "std_msgs")
+set(test_sensor_BUILDTOOL_DEPENDS "catkin")

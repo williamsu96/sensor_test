@@ -1,0 +1,8 @@
+prefix=/home/williamsu/sensor_test/devel
+
+Name: test_sensor
+Description: Description of test_sensor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/williamsu/sensor_test/devel/lib 
+Requires: 
