@@ -1,0 +1,8 @@
+prefix=/home/williamsu/sensor_test/devel
+
+Name: dumbot
+Description: Description of dumbot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/williamsu/sensor_test/devel/lib 
+Requires: 

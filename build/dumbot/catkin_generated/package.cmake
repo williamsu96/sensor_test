@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "dumbot")
+set(dumbot_MAINTAINER "williamsu <williamsu@todo.todo>")
+set(dumbot_DEPRECATED "")
+set(dumbot_VERSION "0.0.0")
+set(dumbot_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(dumbot_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(dumbot_BUILDTOOL_DEPENDS "catkin")

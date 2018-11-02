@@ -1,0 +1,4 @@
+<launch>
+	<param name="robot_description" textfile="$(find test_sensor)/src/test.xml"/>
+	<node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub"/>
+</launch>
