@@ -1,2 +1,2 @@
-dumbot:test_sensor
+costmap_stuff:dumbot:test_sensor
 -DCATKIN_DEVEL_PREFIX=/home/williamsu/sensor_test/devel -DCMAKE_INSTALL_PREFIX=/home/williamsu/sensor_test/install -G Unix Makefiles

@@ -1,0 +1,13 @@
+<launch>
+  <arg name="initname" default="$(optenv initfordevice )"/>
+
+  <arg name="system_costmap_yaml" default="$test.yaml"/>
+
+
+  <node name="costmap_server_node" pkg="costmap_stuff" type="test_costmap_node">
+    <rosparam file="$(find costmap_stuff)/src/test.yaml" command="load" />
+  </node>  
+</launch>
+
+
+<!-- <node name="static_tf0" pkg="tf" type="static_transform_publisher" args="2 0 0 0 0 0 /map /base_link 100"/> -->

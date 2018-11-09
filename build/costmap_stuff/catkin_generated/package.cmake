@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "costmap_stuff")
+set(costmap_stuff_MAINTAINER "williamsu <williamsu@todo.todo>")
+set(costmap_stuff_DEPRECATED "")
+set(costmap_stuff_VERSION "0.0.0")
+set(costmap_stuff_BUILD_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(costmap_stuff_RUN_DEPENDS "roscpp" "rospy" "sensor_msgs" "std_msgs" "tf")
+set(costmap_stuff_BUILDTOOL_DEPENDS "catkin")

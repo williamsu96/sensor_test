@@ -1,0 +1,8 @@
+prefix=/home/williamsu/sensor_test/install
+
+Name: costmap_stuff
+Description: Description of costmap_stuff
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/williamsu/sensor_test/install/lib 
+Requires: 

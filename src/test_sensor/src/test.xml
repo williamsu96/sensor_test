@@ -1,7 +1,14 @@
 <robot name="test_robot">
 	<link name="testlink"/>
 	<link name="testlink1"/>
-
+	<!-- <sensor name="ultrasonic1" update_rate="20">
+		<parent link = testlink1/>
+		<origin xyz="0 0 0" rpy="0 0 0">
+		<ray>
+			<horizontal samples="100" resolution="1" min_angle="-1.5708" max_angle="1.5708"/>
+			<vertical samples="1" resolution="1" min_angle="0" max_angle="0"/>
+		</ray>
+	</sensor> -->
 	<joint name="testjoint" type="continuous">
 		<parent link="testlink"/>
 		<child link="testlink1"/>

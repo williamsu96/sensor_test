@@ -1,0 +1,4 @@
+plugins: 
+  - {name: sonar,   type: "range_sensor_layer::RangeSensorLayer"}
+publish_frequency: 1.0
+footprint: [[-0.325, -0.325], [-0.325, 0.325], [0.325, 0.325], [0.46, 0.0], [0.325, -0.325]]
