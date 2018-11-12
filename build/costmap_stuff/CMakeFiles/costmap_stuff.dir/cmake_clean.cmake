@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o"
+  "CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o"
   "/home/williamsu/sensor_test/devel/lib/libcostmap_stuff.pdb"
   "/home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so"
 )

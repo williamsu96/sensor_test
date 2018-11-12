@@ -49,37 +49,37 @@ include costmap_stuff/CMakeFiles/costmap_stuff.dir/progress.make
 # Include the compile flags for this target's objects.
 include costmap_stuff/CMakeFiles/costmap_stuff.dir/flags.make
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o: costmap_stuff/CMakeFiles/costmap_stuff.dir/flags.make
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o: /home/williamsu/sensor_test/src/costmap_stuff/src/test_costmap_node.cpp
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o: costmap_stuff/CMakeFiles/costmap_stuff.dir/flags.make
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o: /home/williamsu/sensor_test/src/costmap_stuff/src/simple_layer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/williamsu/sensor_test/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o"
-	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o -c /home/williamsu/sensor_test/src/costmap_stuff/src/test_costmap_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o"
+	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o -c /home/williamsu/sensor_test/src/costmap_stuff/src/simple_layer.cpp
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.i"
-	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/williamsu/sensor_test/src/costmap_stuff/src/test_costmap_node.cpp > CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.i
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.i"
+	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/williamsu/sensor_test/src/costmap_stuff/src/simple_layer.cpp > CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.i
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.s"
-	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/williamsu/sensor_test/src/costmap_stuff/src/test_costmap_node.cpp -o CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.s
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.s"
+	cd /home/williamsu/sensor_test/build/costmap_stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/williamsu/sensor_test/src/costmap_stuff/src/simple_layer.cpp -o CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.s
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.requires:
-.PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.requires
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.requires:
+.PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.requires
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.provides: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.requires
-	$(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.provides.build
-.PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.provides
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.provides: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.requires
+	$(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.provides.build
+.PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.provides
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.provides.build: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o
+costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.provides.build: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o
 
 # Object files for target costmap_stuff
 costmap_stuff_OBJECTS = \
-"CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o"
+"CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o"
 
 # External object files for target costmap_stuff
 costmap_stuff_EXTERNAL_OBJECTS =
 
-/home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o
+/home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o
 /home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so: costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make
 /home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so: costmap_stuff/CMakeFiles/costmap_stuff.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so"
@@ -89,7 +89,7 @@ costmap_stuff_EXTERNAL_OBJECTS =
 costmap_stuff/CMakeFiles/costmap_stuff.dir/build: /home/williamsu/sensor_test/devel/lib/libcostmap_stuff.so
 .PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/build
 
-costmap_stuff/CMakeFiles/costmap_stuff.dir/requires: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o.requires
+costmap_stuff/CMakeFiles/costmap_stuff.dir/requires: costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o.requires
 .PHONY : costmap_stuff/CMakeFiles/costmap_stuff.dir/requires
 
 costmap_stuff/CMakeFiles/costmap_stuff.dir/clean:

@@ -1,5 +1,5 @@
-#ifndef TEST_COSTMAP_NODE_H_
-#define TEST_COSTMAP_NODE_H_
+#ifndef SIMPLE_LAYER_H_
+#define SIMPLE_LAYER_H_
 #include <ros/ros.h>
 #include <costmap_2d/layer.h>
 #include <costmap_2d/layered_costmap.h>

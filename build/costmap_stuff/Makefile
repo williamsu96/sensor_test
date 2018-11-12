@@ -541,29 +541,29 @@ tf_generate_messages_py/fast:
 	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/tf_generate_messages_py.dir/build.make costmap_stuff/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
-src/test_costmap_node.o: src/test_costmap_node.cpp.o
-.PHONY : src/test_costmap_node.o
+src/simple_layer.o: src/simple_layer.cpp.o
+.PHONY : src/simple_layer.o
 
 # target to build an object file
-src/test_costmap_node.cpp.o:
-	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.o
-.PHONY : src/test_costmap_node.cpp.o
+src/simple_layer.cpp.o:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.o
+.PHONY : src/simple_layer.cpp.o
 
-src/test_costmap_node.i: src/test_costmap_node.cpp.i
-.PHONY : src/test_costmap_node.i
+src/simple_layer.i: src/simple_layer.cpp.i
+.PHONY : src/simple_layer.i
 
 # target to preprocess a source file
-src/test_costmap_node.cpp.i:
-	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.i
-.PHONY : src/test_costmap_node.cpp.i
+src/simple_layer.cpp.i:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.i
+.PHONY : src/simple_layer.cpp.i
 
-src/test_costmap_node.s: src/test_costmap_node.cpp.s
-.PHONY : src/test_costmap_node.s
+src/simple_layer.s: src/simple_layer.cpp.s
+.PHONY : src/simple_layer.s
 
 # target to generate assembly for a file
-src/test_costmap_node.cpp.s:
-	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/test_costmap_node.cpp.s
-.PHONY : src/test_costmap_node.cpp.s
+src/simple_layer.cpp.s:
+	cd /home/williamsu/sensor_test/build && $(MAKE) -f costmap_stuff/CMakeFiles/costmap_stuff.dir/build.make costmap_stuff/CMakeFiles/costmap_stuff.dir/src/simple_layer.cpp.s
+.PHONY : src/simple_layer.cpp.s
 
 # Help Target
 help:
@@ -606,9 +606,9 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
-	@echo "... src/test_costmap_node.o"
-	@echo "... src/test_costmap_node.i"
-	@echo "... src/test_costmap_node.s"
+	@echo "... src/simple_layer.o"
+	@echo "... src/simple_layer.i"
+	@echo "... src/simple_layer.s"
 .PHONY : help
 
 

@@ -116,9 +116,12 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
+  /include
   ${catkin_INCLUDE_DIRS}
 )
-
+add_library(costmap_stuff
+	src/simple_layer.cpp
+)
 ## Declare a C++ library
 # add_library(costmap_stuff
 #   src/${PROJECT_NAME}/costmap_stuff.cpp
@@ -188,3 +191,5 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+

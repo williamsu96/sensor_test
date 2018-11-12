@@ -116,10 +116,11 @@ catkin_package(
 ## Your package locations should be listed before other locations
 # include_directories(include)
 include_directories(
+  include
   ${catkin_INCLUDE_DIRS}
 )
 add_library(costmap_stuff
-	src/test_costmap_node.cpp
+	src/simple_layer.cpp
 )
 ## Declare a C++ library
 # add_library(costmap_stuff
